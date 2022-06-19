@@ -32,6 +32,28 @@ img {
   width: 80%;
 }
 
+button {
+  margin: 25px;
+  background-color: #4ECCA3;
+  height: 25px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.shake {
+   animation: shake 0.5s infinite;
+}
+@keyframes shake{
+  0%{
+    transform: rotate(8deg);
+  }
+  50%{
+    transform: rotate(-8deg);
+  }
+  100%{
+    transform: rotate(8deg);
+  }
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
